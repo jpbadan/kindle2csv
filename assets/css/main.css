@@ -1,0 +1,30 @@
+:root {
+    --background-color: rgb(24, 24, 24);
+    --text-color: rgb(210, 210, 210);
+}
+
+html, body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    height: 87%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    /* height: 100vh; */
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:50px; /* this needs to be bigger than footer height*/
+  }
+
+.masfoot {
+    position: fixed;
+    margin-top: -150px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+    padding-top:100px;
+  } 
