@@ -55,8 +55,7 @@ def structureSet(highlightSet):
             quotesDictionary[actualBookName] = [actualQuote]
 
     if err > 0: 
-        #print(" [!] %d IMPORTING ERRORS HAVE BEEN DETECTED." %(err))
-        pass
+        print(" [!] %d IMPORTING ERRORS HAVE BEEN DETECTED." %(err))
     return quotesDictionary
 
 
