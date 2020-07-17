@@ -100,7 +100,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     nb_path = args.input.rfind('/')
-    print(f'Nb path {nb_path}')
     if nb_path == -1:
         csv_path = './'+ csv_name
     else:
