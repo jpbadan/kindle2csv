@@ -58,7 +58,6 @@ def structureSet(highlightSet):
         print(" [!] %d IMPORTING ERRORS HAVE BEEN DETECTED." %(err))
     return quotesDictionary
 
-
 def isCompliant(quote):
     """Checks a few compliant parameters
     to filter bad quotes."""
